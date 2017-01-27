@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maze Chase</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="up_button">Up button</string>
+    <string name="down_button">Down button</string>
+    <string name="left_button">Left button</string>
+    <string name="right_button">Right button</string>
+    <string name="title_activity_win">WinActivity</string>
+    <string name="win_text">Congratulations You Win!</string>
+
+</resources>

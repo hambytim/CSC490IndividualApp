@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/relativeLayout"
+    tools:context=".MyActivity">
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp"
+        android:background="@drawable/up"
+        android:onClick="goUp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/button1"
+        android:layout_marginTop="48dp"
+        android:layout_toLeftOf="@+id/button1"
+        android:background="@drawable/left"
+        android:onClick="goLeft" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toRightOf="@+id/button1"
+        android:background="@drawable/right"
+        android:onClick="goRight" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/down"
+        android:onClick="goDown" />
+
+
+</RelativeLayout>

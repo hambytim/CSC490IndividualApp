@@ -1,0 +1,2 @@
+include ':app', ':.gradle1'
+project(':.gradle1').projectDir = new File('.gradle')
